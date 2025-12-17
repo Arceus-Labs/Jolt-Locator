@@ -1,6 +1,6 @@
 # Jolt Locator – ESP32 Energy Drink Store Locator ⚡
 
-> **My first PCB design using KiCad** — A fun GPS-based device to help you find your nearest Jolt energy drink store!
+> **My first PCB design using KiCad** - A fun GPS-based device to help you find your nearest Jolt energy drink store!
 
 ![KiCad](https://img.shields.io/badge/KiCad-9.0.6-blue?logo=kicad)
 ![Arduino](https://img.shields.io/badge/Arduino-ESP32-00979D?logo=arduino)
@@ -15,12 +15,12 @@
 
 The Jolt Locator is a handheld GPS device designed to help energy drink enthusiasts find nearby stores that sell Jolt energy drinks. Using GPS to track your current location and a digital compass to point you in the right direction, you'll never be far from your next caffeine fix.
 
-This project also marks my **first venture into PCB design** using KiCad. I wanted to combine learning hardware design with something fun and practical — and what's more practical than finding energy drinks when you need them?
+This project also marks my **first venture into PCB design** using KiCad. I wanted to combine learning hardware design with something fun and practical - and what's more practical than finding energy drinks when you need them?
 
 **Why this project?**
 - Wanted a fun, themed project to learn PCB design
 - GPS + compass navigation combines multiple communication protocols (I2C, UART, GPIO)
-- Perfect complexity level for a first PCB — challenging but achievable
+- Perfect complexity level for a first PCB - challenging but achievable
 - Creates something unique and conversation-worthy
 
 **The Journey:**
@@ -32,11 +32,11 @@ Starting with zero KiCad experience, I learned schematic symbols, footprint assi
 
 The **Jolt Locator** is a handheld energy drink store finder built around the ESP32 microcontroller. It provides:
 
-- **Real-time GPS tracking** — Know exactly where you are
-- **Digital compass** — Get oriented and walk in the right direction toward stores
-- **OLED display** — Shows your coordinates, heading, and (future) store info
-- **Visual status indicators** — RGB LED shows GPS lock and movement status
-- **User interaction** — Push buttons to switch display modes
+- **Real-time GPS tracking** - Know exactly where you are
+- **Digital compass** - Get oriented and walk in the right direction toward stores
+- **OLED display** - Shows your coordinates, heading, and (future) store info
+- **Visual status indicators** - RGB LED shows GPS lock and movement status
+- **User interaction** - Push buttons to switch display modes
 
 **Current Status:** The hardware accurately displays your position and heading. Future software updates will integrate a store location database/API to show distance and direction to the nearest Jolt retailer.
 
@@ -253,7 +253,7 @@ Press **Button 1** to cycle through display modes:
 
 | Mode | Display Content |
 |------|-----------------|
-| GPS Info | Your location, heading, speed — ready to find Jolt! |
+| GPS Info | Your location, heading, speed - ready to find Jolt! |
 | Compass Only | Large compass rose to guide your walk to the store |
 | System Info | Uptime, GPS status, distance traveled, store count (TBD) |
 
@@ -268,9 +268,9 @@ Press **Button 1** to cycle through display modes:
 
 | Color | Meaning |
 |-------|---------|
-| 🔴 Red | No GPS fix — can't locate you yet |
+| 🔴 Red | No GPS fix - can't locate you yet |
 | 🟡 Yellow | GPS locked, but you're standing still |
-| 🟢 Green | GPS locked and you're on the move — go get that Jolt! |
+| 🟢 Green | GPS locked and you're on the move - go get that Jolt! |
 | 🔵 Blue (blinking) | Compass calibration mode |
 
 ### Compass Calibration
@@ -319,18 +319,18 @@ This project taught me the complete hardware design workflow:
 
 ### KiCad Workflow Insights
 
-1. **Start with schematic** — Get the logic right first
-2. **Annotate early** — Assign reference designators before layout
-3. **Check footprints** — Verify before starting PCB
-4. **Route power first** — Then signals
-5. **Use design rules** — Let DRC catch mistakes
-6. **Generate Gerbers last** — After all checks pass
+1. **Start with schematic** - Get the logic right first
+2. **Annotate early** - Assign reference designators before layout
+3. **Check footprints** - Verify before starting PCB
+4. **Route power first** - Then signals
+5. **Use design rules** - Let DRC catch mistakes
+6. **Generate Gerbers last** - After all checks pass
 
 ### Future Improvements
 
-- [ ] **Store database integration** — API/database of Jolt retailer locations
-- [ ] **Distance to nearest store** — Show how far to walk for your energy fix
-- [ ] **Direction arrow** — Point toward the nearest Jolt store
+- [ ] **Store database integration** - API/database of Jolt retailer locations
+- [ ] **Distance to nearest store** - Show how far to walk for your energy fix
+- [ ] **Direction arrow** - Point toward the nearest Jolt store
 - [ ] Add battery management (TP4056 + 18650) for portable use
 - [ ] Include SD card for logging your Jolt-hunting adventures
 - [ ] Add buzzer alert when approaching a store
@@ -401,7 +401,7 @@ This project taught me the complete hardware design workflow:
 
 ## 📄 License
 
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
 You are free to:
 - Use this design for personal or commercial projects
@@ -431,16 +431,16 @@ If you build this project or have improvements to suggest, I'd love to hear abou
 
 ## 🙏 Acknowledgments
 
-- **KiCad Community** — For excellent documentation and tutorials
-- **Random Nerd Tutorials** — ESP32 guides that got me started
-- **Adafruit** — For amazing libraries and learning resources
-- **Open Source Hardware Association** — For promoting open hardware
-- **YouTube Creators** — Phil's Lab, EEVblog, and others for PCB design tutorials
+- **KiCad Community** - For excellent documentation and tutorials
+- **Random Nerd Tutorials** - ESP32 guides that got me started
+- **Adafruit** - For amazing libraries and learning resources
+- **Open Source Hardware Association** - For promoting open hardware
+- **YouTube Creators** - Phil's Lab, EEVblog, and others for PCB design tutorials
 
 ---
 
 <p align="center">
   <i>Built with ❤️ and ⚡ caffeine</i><br>
-  <i>First PCB design — everyone starts somewhere!</i><br>
+  <i>First PCB design - everyone starts somewhere!</i><br>
   <i>Now go find your Jolt!</i>
 </p>
