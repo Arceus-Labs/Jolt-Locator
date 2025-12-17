@@ -84,21 +84,21 @@ The **Jolt Locator** is a handheld energy drink store finder built around the ES
 ┌─────────────────────────────────────────────────────────────┐
 │                    ESP32 DevKit V1                          │
 ├─────────────────────────────────────────────────────────────┤
-│  GPIO16 (RX2) ◄──── GPS TX (NEO-6M)                        │
-│  GPIO17 (TX2) ────► GPS RX (NEO-6M)                        │
+│  GPIO16 (RX2) ◄──── GPS TX (NEO-6M)                         │
+│  GPIO17 (TX2) ────► GPS RX (NEO-6M)                         │
 │                                                             │
-│  GPIO21 (SDA) ◄───► Magnetometer SDA + OLED SDA            │
-│  GPIO22 (SCL) ◄───► Magnetometer SCL + OLED SCL            │
+│  GPIO21 (SDA) ◄───► Magnetometer SDA + OLED SDA             │
+│  GPIO22 (SCL) ◄───► Magnetometer SCL + OLED SCL             │
 │                                                             │
-│  GPIO25 ──────────► RGB LED Red (via 330Ω)                 │
-│  GPIO26 ──────────► RGB LED Green (via 330Ω)               │
-│  GPIO27 ──────────► RGB LED Blue (via 330Ω)                │
+│  GPIO25 ──────────► RGB LED Red (via 330Ω)                  │
+│  GPIO26 ──────────► RGB LED Green (via 330Ω)                │
+│  GPIO27 ──────────► RGB LED Blue (via 330Ω)                 │
 │                                                             │
-│  GPIO32 ◄────────── Button 1 (Mode) ──── GND               │
-│  GPIO33 ◄────────── Button 2 (Calibrate) ── GND            │
+│  GPIO32 ◄────────── Button 1 (Mode) ──── GND                │
+│  GPIO33 ◄────────── Button 2 (Calibrate) ── GND             │
 │                                                             │
-│  3.3V ───────────► VCC (GPS, Magnetometer, OLED)           │
-│  GND ────────────► GND (All components)                    │
+│  3.3V ───────────► VCC (GPS, Magnetometer, OLED)            │
+│  GND ────────────► GND (All components)                     │
 └─────────────────────────────────────────────────────────────┘
 ```
 
