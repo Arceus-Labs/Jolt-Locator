@@ -219,7 +219,9 @@ This project taught me the complete hardware design workflow:
 | Resource | Link |
 |:--------:|:----:|
 | 🐙 GitHub | [Arceus-Labs/Jolt-Locator](https://github.com/Arceus-Labs/Jolt-Locator) |
-| 📄 Schematic | [CircuitJoltLocatorSchematics.pdf](KiCad_Assets/CircuitJoltLocatorSchematics.pdf) |
+| 🎥 Overview Video | [Google Drive](https://drive.google.com/file/d/1VwE_1rguNNE881kBLkCEOvr3J9EuUqLW/view?usp=sharing) |
+| 📄 Technical Report | [Notion Document](https://crocus-zenobia-863.notion.site/Jolt-Locator-Technical-Report-2d61ebfe20648069a6e1c0589107c909) |
+| 📐 Schematic | [CircuitJoltLocatorSchematics.pdf](KiCad_Assets/CircuitJoltLocatorSchematics.pdf) |
 
 </div>
 
