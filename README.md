@@ -4,6 +4,8 @@
 
 ### GPS-Based Energy Drink Store Finder
 
+<img src="https://raw.githubusercontent.com/Arceus-Labs/Jolt-Locator/main/Assets/Jolt%20Locatot%20Cover.png" alt="Jolt Locator Cover" width="600"/>
+
 [![ESP32](https://img.shields.io/badge/ESP32-Dev%20Module-E7352C?style=flat-square&logo=espressif&logoColor=white)](https://www.espressif.com/)
 [![Arduino](https://img.shields.io/badge/Arduino-IDE-00979D?style=flat-square&logo=arduino&logoColor=white)](https://www.arduino.cc/)
 [![KiCad](https://img.shields.io/badge/KiCad-9.0.6-314CB0?style=flat-square&logo=kicad&logoColor=white)](https://www.kicad.org/)
@@ -220,6 +222,7 @@ This project taught me the complete hardware design workflow:
 |:--------:|:----:|
 | 🐙 GitHub | [Arceus-Labs/Jolt-Locator](https://github.com/Arceus-Labs/Jolt-Locator) |
 | 🎥 Overview Video | [Google Drive](https://drive.google.com/file/d/1VwE_1rguNNE881kBLkCEOvr3J9EuUqLW/view?usp=sharing) |
+| 📊 Slide Deck | [System Architecture Deep Dive](Assets/Jolt_Locator_System_Architecture_Deep_Dive.pdf) |
 | 📄 Technical Report | [Notion Document](https://crocus-zenobia-863.notion.site/Jolt-Locator-Technical-Report-2d61ebfe20648069a6e1c0589107c909) |
 | 📐 Schematic | [CircuitJoltLocatorSchematics.pdf](KiCad_Assets/CircuitJoltLocatorSchematics.pdf) |
 
